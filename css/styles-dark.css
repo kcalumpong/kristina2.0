@@ -122,7 +122,8 @@ nav.navbar {
   nav.navbar .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.5); }
   nav.navbar .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+    /* background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); } */
+    background-image: url("../img/stars.jpg"); }
 
 .normal-link {
   text-decoration: none; }
@@ -136,6 +137,16 @@ nav.navbar {
   color: black; }
   .link:hover, .link:focus {
     text-decoration: none; }
+
+.ed-line {
+  width: 97px;
+  height: 2px;
+  border-bottom: 1px solid black;
+  position: absolute;
+  left: 524px;
+  top: 188px;
+  background-color: #dca60b;
+}
 
 .line-link {
   padding-left: 20px;
@@ -156,7 +167,7 @@ nav.navbar {
     height: 1px;
     position: absolute;
     top: 255px;
-    left: 0;
+    left: 8px;
     background-color: #999999;
     -webkit-transition: all 200ms ease-out;
     transition: all 200ms ease-out; }
@@ -348,7 +359,6 @@ section.specialty .dot {
   section.specialty .dot.fill {
     background-color: #dca60b; }
 
- 
 
 /*--------------------------------------------------------------
 9.0 Experiecnes Section
