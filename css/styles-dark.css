@@ -49,6 +49,15 @@ body {
 h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: 'Playfair Display', serif; }
 
+hr {
+  background: #dca60b;;
+    width: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
 /*--------------------------------------------------------------
 4.0 Custom Cursor Styles
 --------------------------------------------------------------*/
@@ -139,13 +148,18 @@ nav.navbar {
     text-decoration: none; }
 
 .ed-line {
-  width: 97px;
+  width: 20px;
   height: 2px;
   border-bottom: 1px solid black;
   position: absolute;
-  left: 524px;
-  top: 188px;
-  background-color: #dca60b;
+  left: 339px;
+  /* top: 188px; */
+  margin-top: 25px;
+  background-color: #999999;
+}
+
+.view-app:hover, .contact-link:hover {
+color: white;
 }
 
 .line-link {
@@ -509,6 +523,13 @@ a {
 /*--------------------------------------------------------------
 16.0 Media Queries
 --------------------------------------------------------------*/
+@media only screen and (max-width: 576px) {
+  .display-1 {
+    font-size: 3rem;
+    }
+}
+
+
 @media only screen and (min-width: 576px) {
   .sm-dir-reverse {
     direction: rtl; } }
